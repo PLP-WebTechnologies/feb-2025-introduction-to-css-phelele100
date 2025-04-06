@@ -1,0 +1,57 @@
+/* Apply a different font to the entire body */
+body {
+    font-family: 'Arial', sans-serif; /* Font for the body */
+    background-color: #f4f4f9; /* Light background color for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header using an ID selector */
+#main-header {
+    background-color: #333; /* Dark background for the header */
+    color: white; /* White text color */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Georgia', serif; /* Different font for the header */
+}
+
+/* Styling for the content section using a class selector */
+.content-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background for content */
+    border: 1px solid #ddd; /* Light border around the content */
+    border-radius: 5px; /* Rounded corners for the border */
+}
+
+/* Styling the image using a class selector */
+.styled-image {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #333; /* Adding a border around the image */
+    margin-top: 20px; /* Space between image and content above */
+}
+
+/* Styling the footer using an ID selector */
+#footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text color */
+    text-align: center;
+    padding: 15px;
+    position: fixed; /* Make the footer fixed at the bottom */
+    width: 100%;
+    bottom: 0;
+}
+
+/* Styling paragraph text in the content section */
+.content-section p {
+    margin-bottom: 20px; /* Margin at the bottom of the paragraph */
+    padding: 10px; /* Padding inside the paragraph */
+    font-size: 16px; /* Font size for the paragraph */
+}
+
+/* Styling the header text specifically */
+h1 {
+    font-family: 'Georgia', serif; /* Use a serif font for the main header */
+    color: #f1c40f; /* Golden yellow text color */
+}
